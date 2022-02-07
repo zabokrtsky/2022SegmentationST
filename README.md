@@ -22,7 +22,7 @@ Output: dictionary <br/>
 Input word: screwdriver <br/>
 Output: screw @@drive @@er <br/>
 
-First example is a derived word with prefix (in-) and suffixes (-cy and -s), and Second example is a root word. Third example is a compound word.
+First example is a derived word with prefix (in-) and suffixes (-cy and -s), and second example is a root word. Third example is a compound word.
 
 
 
