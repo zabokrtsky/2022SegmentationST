@@ -13,17 +13,35 @@ benefit a lot by innovating subword-based tokenization with this task.
 At the word level, participants will be asked to segment a given word into a sequence of morphemes. Input words contains all types of word forms: root words, derived words, inflected words, and compound words.
 
 ### Data
+Training and development data are UTF-8-encoded tab-separated values files. Each example occupies a single line and consists of input word, the corresponding morpheme sequence, and the corresponding morphological category (optional information should be used only to oversample or undersample training data). The following shows three lines of English data:
     
-    inaccuracies  in@@ accurate @@cy @@s
-    dictionary  dictionary
-    screwdriver screw @@drive @@er
+    inaccuracies  in@@ accurate @@cy @@s  110
+    dictionary  dictionary  000
+    screwdriver screw @@drive @@er  011
 
 First example is a derived word with prefix (in-) and suffixes (-cy and -s), and second example is a root word. Third example is a compound word.
 
+### Languages
+Development languages are:
+1.  `ces`: Czech
+2.  `deu`: German
+3.  `eng`: English
+4.  `fra`: French
+5.  `hun`: Hungarian
+6.  `spa`: Spanish
+7.  `ita`: Italian
+8.  `lat`: Latin
+9.  `rus`: Russian
 
+### Statistics
 
 ## Part 2: Sentence-level Morpheme Segmentation
+At the sentence level, participating systems are expected to predict a sequence of morphemes for a given sentence.
 
+        Six weeks of basic training. Six week @@s of base @@ic train @@ing .
+        Fistfights, please. Fist @@fight @@s , please .
+
+## Task Details
 
 ## Evaluation
 
