@@ -46,6 +46,19 @@ We will provide python evaluation scripts, reporting the following evaluation me
 - May 4, 2022: Participants' draft system description papers due.
 - May 20, 2022: Participants' camera-ready system description papers due.
 
+## Organizers
+
+- Khuyagbaatar Batsuren (National University of Mongolia)
+- Gábor Bella (University of Trento)
+- Viktor Martinović (University of Vienna)
+- Zdeněk Žabokrtský (Charles University)
+- Aryaman Arora (Georgetown University)
+- Kyle Gorman (Graduate center, City University Of New York)
+- Fausto Giunchiglia (University of Trento)
+- Ryan Cotterell (ETH Zürich)
+- Ekaterina Vylomova (University of Melbourne)
+
+
 
 
 
