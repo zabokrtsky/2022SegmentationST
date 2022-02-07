@@ -27,3 +27,13 @@ First example is a derived word with prefix (in-) and suffixes (-cy and -s), and
 
 
 ## Part 2: Sentence-level Morpheme Segmentation
+
+
+## Evaluation
+
+We will provide python evaluation scripts, reporting the following evaluation measures:
+
+- Accuracy - fraction of correctly predicted morphemes.
+- Edit distance - average Levenshtein distance between the predicted output and the gold instance.
+
+
