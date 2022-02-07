@@ -12,11 +12,11 @@ benefit a lot by innovating subword-based tokenization with this task.
 ## Part 1: Word-level Morpheme Segmentation
 At the word level, participants will be asked to segment a given word into a sequence of morphemes. Input words contains all types of word forms: root words, derived words, inflected words, and compound words.
 
-### Examples
+### Data
     
     inaccuracies  in@@ accurate @@cy @@s
     dictionary  dictionary
-    screwdriver screw @@drive @@er <br/>
+    screwdriver screw @@drive @@er
 
 First example is a derived word with prefix (in-) and suffixes (-cy and -s), and second example is a root word. Third example is a compound word.
 
