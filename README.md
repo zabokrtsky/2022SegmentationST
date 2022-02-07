@@ -13,8 +13,8 @@ benefit a lot by innovating subword-based tokenization with this task.
 At the word level, participants will be asked to segment a given word into a sequence of morphemes. Input words contains all types of word forms: root words, derived words, inflected words, and compound words.
 
 ### Examples
-Input word: inaccuracies <br/>
-Output: in@@ accurate @@cy @@s <br/>
+    
+    inaccuracies  in@@ accurate @@cy @@s <br/>
 
 Input word: dictionary <br/>
 Output: dictionary <br/>
@@ -36,7 +36,7 @@ We will provide python evaluation scripts, reporting the following evaluation me
 - Accuracy - fraction of correctly predicted morphemes.
 - Edit distance - average Levenshtein distance between the predicted output and the gold instance.
 
-## Date
+## Timeline
 
 - February 14, 2022: Training splits are released.
 - February 21, 2022: Development splits are released.
