@@ -34,11 +34,23 @@ We will provide python evaluation scripts, reporting the following evaluation me
 
 ## Timeline
 
-- February 14, 2022: Training splits are released.
-- February 21, 2022: Development splits are released.
+### Development Phase
+
+- February 14, 2022: Training splits for development languages are released.
+- February 21, 2022: Development splits for development languages are released.
 - February 28, 2022: Baseline code, and results released.
-- April 1, 2022: Test splits are released.
+
+### Generalization Phase
+
+- April 1, 2022: Training and development splits for surprise languages released.
+
+### Evaluation Phase
+
+- April 8, 2022: Test splits for development and surprise languages are released.
 - April 22, 2022: Participants' submissions due.
+
+### Write-up Phase
+
 - May 4, 2022: Participants' draft system description papers due.
 - May 20, 2022: Participants' camera-ready system description papers due.
 
