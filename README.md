@@ -33,7 +33,7 @@ Development languages are:
 8.  `lat`: Latin
 9.  `rus`: Russian
 
-### Statistics
+### Data Statistics
 
 ## Part 2: Sentence-level Morpheme Segmentation
 At the sentence level, participating systems are expected to predict a sequence of morphemes for a given sentence.
