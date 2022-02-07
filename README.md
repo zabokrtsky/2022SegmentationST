@@ -14,7 +14,15 @@ At the word level, participants will be asked to segment a given word into a seq
 
 ### Examples
 Input word: inaccuracies <br/>
-Output: in@@ accurate @@cy @@s
+Output: in@@ accurate @@cy @@s <br/>
+
+Input word: dictionary <br/>
+Output: dictionary <br/>
+
+Input word: screwdriver <br/>
+Output: screw @@drive @@er <br/>
+
+First example is a derived word with prefix (in-) and suffixes (-cy and -s), and Second example is a root word. Third example is a compound word.
 
 
 
