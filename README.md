@@ -37,9 +37,17 @@ Development languages are:
 
 ## Part 2: Sentence-level Morpheme Segmentation
 At the sentence level, participating systems are expected to predict a sequence of morphemes for a given sentence.
+The following shows two lines of English data:
 
-        Six weeks of basic training. Six week @@s of base @@ic train @@ing .
-        Fistfights, please. Fist @@fight @@s , please .
+    Six weeks of basic training. Six week @@s of base @@ic train @@ing .
+    Fistfights, please. Fist @@fight @@s , please .
+
+The following shows two lines of Mongolian data:
+
+    Гэрт эмээ хоол хийв. Гэр @@т эмээ хоол хийх @@в .
+    Би өдөр эмээ уусан. Би өдөр эм @@ээ уух @@сан .
+
+In above example, `эмээ` is a hononym of two different words, first means a `grandmother` and second is `medicine`. Depending on the context, the second homonym word is inflectional form of `medicine` so that is segmentable.
 
 ## Task Details
 
@@ -83,8 +91,3 @@ We will provide python evaluation scripts, reporting the following evaluation me
 - Fausto Giunchiglia (University of Trento)
 - Ryan Cotterell (ETH Zürich)
 - Ekaterina Vylomova (University of Melbourne)
-
-
-
-
-
