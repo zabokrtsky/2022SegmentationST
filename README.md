@@ -49,6 +49,15 @@ The following shows two lines of Mongolian data:
 
 In above example, `эмээ` is a hononym of two different words, first means a `grandmother` and second is `medicine`. Depending on the context, the second homonym word is inflectional form of `medicine` so that is segmentable.
 
+### Languages
+Development languages are:
+1.  `ces`: Czech
+2.  `eng`: English
+3.  `hun`: Hungarian
+4.  `mon`: Mongolian
+
+### Data Statistics
+
 ## Task Details
 
 ## Evaluation
@@ -62,22 +71,22 @@ We will provide python evaluation scripts, reporting the following evaluation me
 
 ### Development Phase
 
-- February 14, 2022: Training splits for development languages are released.
-- February 21, 2022: Development splits for development languages are released.
-- February 28, 2022: Baseline code, and results released.
+- February 21, 2022: Training splits for development languages are released.
+- February 28, 2022: Development splits for development languages are released.
+- March 5, 2022: Baseline code, and results released.
 
 ### Generalization Phase
 
-- April 1, 2022: Training and development splits for surprise languages released.
+- April 8, 2022: Training and development splits for surprise languages released.
 
 ### Evaluation Phase
 
-- April 8, 2022: Test splits for development and surprise languages are released.
-- April 22, 2022: Participants' submissions due.
+- April 15, 2022: Test splits for development and surprise languages are released.
+- April 29, 2022: Participants' submissions due.
 
 ### Write-up Phase
 
-- May 4, 2022: Participants' draft system description papers due.
+- May 13, 2022: Participants' draft system description papers due.
 - May 20, 2022: Participants' camera-ready system description papers due.
 
 ## Organizers
