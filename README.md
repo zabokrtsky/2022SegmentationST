@@ -2,7 +2,7 @@
 
 Morphemes (prefixes, suffixes, root words) are linguistic descriptions, defined as the smallest meaningful unit of words. Our proposed shared task is morpheme
 segmentation that converts a text into a sequence of morphemes. In order to prepare a dataset for this task, we integrated all basic types of morphological
-databases (including UniMorph (Kirov et al., 2018b) – inflectional morphology; MorphyNet (Batsuren et al., 2021) – derivational morphology; Universal
+databases (including UniMorph (Kirov et al., 2018b; McCarthy et al., 2020) – inflectional morphology; MorphyNet (Batsuren et al., 2021) – derivational morphology; Universal
 Dependencies (Nivre et al., 2017) and ten editions of Wiktionary – compound morphology and root words). In the future, we expect the NLP community will
 benefit a lot by innovating subword-based tokenization with this task. 
 
@@ -137,3 +137,14 @@ We will provide python evaluation scripts, reporting the following evaluation me
 - Fausto Giunchiglia (University of Trento)
 - Ryan Cotterell (ETH Zürich)
 - Ekaterina Vylomova (University of Melbourne)
+
+## References
+
+Kirov, C., Cotterell, R., Sylak-Glassman, J., Walther, G., Vylomova, E., Xia, P., Faruqui, M., Mielke, S., McCarthy, A., Kübler, S., Yarowsky, D., Eisner, J., and Hulden, M. (2018). [UniMorph 2.0: Universal Morphology](https://arxiv.org/abs/1810.11101). Proceedings of LREC 2018.
+
+McCarthy, A.D., Kirov, C., Grella, M., Nidhi, A., Xia, P., Gorman, K., Vylomova, E., Mielke, S.J., Nicolai, G., Silfverberg, M. and Arkhangelskij, T., (2020). [UniMorph 3.0: Universal Morphology.](https://aclanthology.org/2020.lrec-1.483/). Proceedings of LREC 2020.
+
+Batsuren, K., Bella, G. and Giunchiglia, F., (2021). [MorphyNet: a Large Multilingual Database of Derivational and Inflectional Morphology.](https://aclanthology.org/2021.sigmorphon-1.5/) In Proceedings of SIGMORPHON 2021 (pp. 39-48).
+
+Nivre, J., Agić, Ž., Ahrenberg, L., Antonsen, L., Aranzabe, M.J., Asahara, M., Ateyah, L., Attia, M., Atutxa, A., Augustinus, L. and Badmaeva, E., (2017). [Universal Dependencies 2.1.](https://hal.inria.fr/hal-01682188?gathStatIcon=true)
+
