@@ -84,6 +84,13 @@ Development languages are:
 
 ### Data Statistics
 
+|           | train | dev  | test |
+|-----------|-------|------|------|
+| Czech     | 1000  | 500  | 500  |
+| English   | 11007 | 1783 | 1846 |
+| Hungarian | TBD   | TBD  | TBD  |
+| Mongolian | 1000  | 500  | 500  |
+
 ## Task Details
 
 ## Evaluation
