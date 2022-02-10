@@ -35,6 +35,20 @@ Development languages are:
 
 ### Data Statistics
 
+### Word category description
+For some of the development languages, we are providing the word categories so that participant can deal with imbalanced situation of morphological categories. 
+
+| word class | Description                      | English example                        |
+|------------|----------------------------------|----------------------------------------|
+| 100        | Inflection only                  | played ==> play @@ed                   |
+| 010        | Derivation only                  | player ==> play @@er                   |
+| 101        | Inflection and Compound          | wheelbands ==> wheel @@band @@s        |
+| 000        | Root words                       | progress ==> progress                  |
+| 011        | Derivation and Compound          | tankbuster ==> tank @@bust @@er        |
+| 110        | Inflection and Derivation        | urbanizes ==> urban @@ize @@s          |
+| 001        | Compound only                    | hotpot ==> hot @@pot                   |
+| 111        | Inflection, Derivation, Compound | trackworkers ==> track @@work @@er @@s |
+
 ## Part 2: Sentence-level Morpheme Segmentation
 At the sentence level, participating systems are expected to predict a sequence of morphemes for a given sentence.
 The following shows two lines of English data:
