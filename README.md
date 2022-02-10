@@ -35,7 +35,7 @@ Development languages are:
 
 ### Data Statistics
 
-| class | English | Spanish | Hungarian | French | Italian | Russian | Czech | Latin | German |
+| word class | English | Spanish | Hungarian | French | Italian | Russian | Czech | Latin | German |
 |:-----:|---------|---------|-----------|--------|---------|---------|-------|-------|--------|
 |  100  |  126544 |  502229 |    436753 | 122529 |  253455 |  221760 |     - |   TBD |    TBD |
 |  010  |  203102 |   18449 |     23717 |  61465 |   41092 |   72970 |     - |   TBD |    TBD |
@@ -45,7 +45,7 @@ Development languages are:
 |  110  |  106570 |  346862 |    289812 | 163297 |  237104 |  481409 |     - |   TBD |    TBD |
 |  001  |   16990 |     248 |      4398 |   1586 |     431 |     259 |     - |   TBD |    TBD |
 |  111  |    3059 |     343 |     47541 |    309 |     158 |    2658 |     - |   TBD |    TBD |
-| total |  577374 |  884514 |    934623 | 382797 |  553734 |  784214 | 38682 |   TBD |    TBD |
+| total words |  577374 |  884514 |    934623 | 382797 |  553734 |  784214 | 38682 |   TBD |    TBD |
 
 ### Word category description
 For some of the development languages, we are providing the word categories so that participant can deal with imbalanced situation of morphological categories. 
