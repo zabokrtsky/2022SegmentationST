@@ -73,7 +73,7 @@ The following shows two lines of Mongolian data:
     Гэрт эмээ хоол хийв. Гэр @@т эмээ хоол хийх @@в .
     Би өдөр эмээ уусан. Би өдөр эм @@ээ уух @@сан .
 
-In above example, `эмээ` is a hononym of two different words, first means a `grandmother` and second is `medicine`. Depending on the context, the second homonym word is inflectional form of `medicine` so that is segmentable.
+In above example, `эмээ` is a hononym of two different words, first means a `grandmother` and second is `medicine`. Depending on the context, the second homonym word is inflectional form of `medicine` and it is segmentable.
 
 ### Languages
 Development languages are:
